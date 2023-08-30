@@ -1,0 +1,115 @@
+.banner{
+    background-color: #000;
+}
+
+.bannerheadingdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-heading{
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    font-family: Inter Bold, sans-serif;
+    font-size: 50px;
+    line-height: 1.1em;
+    font-weight: 700;
+    padding-top: 110px;
+    
+}
+
+
+.bannerheadingspan{
+    color: rgba(255, 255, 255, .5);
+}
+
+.bannerheadingone{
+    font-family: Inter Regular, sans-serif;
+    font-size: 22px;
+    font-weight: 400 ;
+    line-height: 1.2em;
+    width: 40%;
+    color: #fff;
+    text-align: center;
+    margin: 40px auto 20px;
+}
+
+.bannerbuttonheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerbutton{
+    width: 150px;
+    color: #1f1f1f;
+    text-transform: uppercase;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    padding: 15px 20px;
+    font-weight: 600;
+    transition: opacity .3s;
+    display: flex;
+    text-decoration: none;
+}
+
+.bannerbutton:hover{
+    background-color: #1a8ef7;
+    color: #fff;
+}
+
+.bannercard{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.bannercarddetail{
+    text-align: center;
+    padding: 20px 10px 40px;
+}
+
+.bannericon{
+
+}
+
+.bannercardheading{
+    height: 70px;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.bannercardtext{
+    font-family: Inter Light, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+    .banner-heading{
+        width: 100%;
+        font-size: 24px;
+        padding-top: 37px;
+    }
+    .bannerheadingone{
+        width: 100%;
+        margin: 15px 1px 1px ;
+    }
+    .bannercard{
+        margin-top: 10px;
+    }
+    .bannercarddetail{
+        padding: 20px 10px 13px;
+    }
+}
